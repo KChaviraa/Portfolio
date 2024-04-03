@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+   font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2rem;
+    font-weight: 54;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  h1{
+    font-family:'Monaco', monospace;
+    font-weight: 700;
+    text-align:center;
+    font-size: 6rem;
+  }
+  h2{
+    font-family:'Monaco', monospace;
+    font-weight: 700;
+    text-align:center;
+    font-size: 4.2px;
+  }
+  a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  ul {
+  list-style: none;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: #6D8772;
+    box-shadow:0 2px 0 #4D5D53(0,0,0, 0.4);
+    z-index:10;
+  }
+  .nav-list {
+    display: flex;
+    margin-right:2rem;
+  }
+  .nav-list a {
+    display:block;
+    font-size:2.2rem;
+    padding:2rem;
+  }
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    background-color: #89a48e;
+    background-image: linear-gradient(62deg, #3648 15%, #89a48e 100%);
+  }
+  .welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style:italic;
+    color: #4D5D53;
+  }
+  .projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: #ADC3B7;
+  }
+  .projects-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #FFFFFF;
+  } 
+  h2 {
+    font-size:4.2rem;
+  }
